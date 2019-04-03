@@ -1,0 +1,14 @@
+<h5>Coffee Order:</h5>
+<form [formGroup]="orderForm">
+  <p>
+    <input formControlName="customerName" 
+            placeholder="Customer Name"/>
+  </p>
+  <p>
+    <input formControlName="orderNumber" 
+            placeholder="Numero de Comanda"/>
+  </p>
+  <p>
+    <button (click)="onSubmit()">Alta</button>
+  </p>
+</form>
